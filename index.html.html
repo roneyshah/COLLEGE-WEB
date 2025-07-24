@@ -1,0 +1,455 @@
+ <!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ভেড়াপোড়া আদর্শ মহাবিদ্যালয়</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <style>
+    body { font-family: 'SolaimanLipi', sans-serif; margin: 0; background-color: #f5f5f5; }
+    header { background: #004080; color: white; padding: 20px; text-align: center; }
+    nav { background: #003366; padding: 10px; text-align: center; position: relative; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; position: relative; }
+    nav a:hover { text-decoration: underline; }
+    .dropdown { position: relative; display: inline-block; }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #003366;
+      min-width: 160px;
+      z-index: 1;
+      text-align: left;
+    }
+    .dropdown-content a {
+      color: white;
+      padding: 8px 12px;
+      display: block;
+      text-decoration: none;
+    }
+    .dropdown-content a:hover { background-color: #0056b3; }
+    .dropdown:hover .dropdown-content { display: block; }
+    .section { background: #fff; padding: 20px; margin: 20px; border-radius: 8px; box-shadow: 0 0 10px #ccc; }
+    h2 { color: #003366; }
+    button { background: #007BFF; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer; }
+    button:hover { background: #0056b3; }
+    input, textarea { width: 100%; padding: 8px; margin: 8px 0; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+    th { background-color: #e0e0e0; }
+  </style>
+</head>
+<body>
+
+
+<header>
+  <img src="./assets/Verapora-adrosho-mohabiddaloy.png" alt="কলেজের লোগো" style="height: 100px;">
+  <h1>ভেড়াপোড়া আদর্শ মহাবিদ্যালয়</h1>
+  <p>দাওকান্দি, পবা, রাজশাহী</p>
+  <p>স্থাপিত- ২০০১, EIIN NO- 126937</p> <p>কলেজ কোড- ১২৩১, এমপিও কোড- ২০২৩১২৬৯৩৭৩১</p>
+</header>
+
+<nav>
+  <a href="#history">ইতিহাস</a>
+  <a href="#intro">প্রতিষ্ঠান পরিচিতি</a>
+  <a href="#teacherlist">শিক্ষকবৃন্দ</a>
+  <a href="#stafflist">কর্মচারী</a>
+  <a href="#notice">নোটিশ</a>
+  <a href="#syllabus">সিলেবাস ও রুটিন</a>
+  <div class="dropdown">
+    <a href="#branches">অনুমোদিত শাখা</a>
+    <div class="dropdown-content">
+      <a href="#science">বিজ্ঞান</a>
+      <a href="#commerce">ব্যবসায় শিক্ষা</a>
+      <a href="#humanities">মানবিক</a>
+    </div>
+  </div>
+  <a href="#dashboard">ড্যাশবোর্ড</a>
+  <div class="dropdown">
+    <a href="#downloads">ডাউনলোড</a>
+    <div class="dropdown-content">
+      <a href="#teacherlist">শিক্ষক তালিকা</a>
+      <a href="#stafflist">কর্মচারী তালিকা</a>
+      <a href="#studentslist">ভর্তিকৃত ছাত্র-ছাত্রীদের তালিকা</a>
+    </div>
+  </div>
+  <a href="#result">ফলাফল</a>
+  <a href="#admission">ভর্তি</a>
+  <a href="#gallery">গ্যালারি</a>
+  <a href="#admin">এডমিন</a>
+  <a href="#admin">যোগাযোগ</a>
+</nav>
+
+<div class="section" id="history">
+  <h2>প্রতিষ্ঠানের ইতিহাস</h2>
+  <p>ভেড়াপোড়া আদর্শ মহাবিদ্যালয় ২০০১ সালে রাজশাহী জেলার পবা উপজেলাধীন বড়গাছী ইউনিয়নের ভেড়াপোড়া নামক স্থানে প্রতিষ্ঠিত হয়। মহাবিদ্যালয়টি ০১/০৭/২০০৪ খ্রিস্টাব্দ তারিখে পাঠদানের অনুমতি ও ০১/০৭/২০০৬ খিস্টাব্দ তারিখে একাডেমীক স্বীকৃতি লাভ করে। প্রতিষ্ঠানটি ভাল শিক্ষা প্রতিষ্ঠান হিসেবে উল্লেখযোগ্য অবদান রেখে যাচ্ছে। এটি একটি স্বনামধন্য কলেজ যা উচ্চ মাধ্যমিক পর্যায়ে শিক্ষা প্রদান করে।</p>
+</div>
+
+<div class="section" id="intro">
+  <h2>প্রতিষ্ঠান পরিচিতি</h2>
+  <p>ভেড়াপোড়া আদর্শ মহাবিদ্যালয়<br> EIIN: 126937, কলেজ কোড: ১২৩১, এমপিও কোড- ২০২৩১২৬৯৩৭৩১<br>এমপিও ভুক্তির তারিখ- ১৭/১০/২০২৩ খ্রিস্টাব্দ<br> দাওকান্দি, পবা, রাজশাহী</p>
+</div>
+
+<div class="section" id="teacherlist">
+  <h2>শিক্ষকবৃন্দের তালিকা</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>নাম</th>
+        <th>পদবী</th>
+        <th>বিষয়</th>
+        <th>মোবাইল</th>
+        <th>ইমেইল</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+      <tr><td>মো: শফিকুল ইসলাম</td><td>অধ্যক্ষ</td><td>-</td><td>০১৭১৬৩৩৬৭২১</td><td>shafiqul.muttut.21@gmail.com</td></tr>
+      <tr><td>মো: মানিকুর রহমান</td><td>প্রভাষক</td><td>বাংলা</td><td>০১৭৩৭৫৭৩৯৬৫</td><td>manik1081978@gmail.com</td></tr>
+      <tr><td>মো: আলতাব হোসেন</td><td>প্রভাষক</td><td>ইংরেজি</td><td>০১৭২৬২১৪২৩০</td><td>altabnew2019@gmail.com</td></tr>
+      <tr><td>মো: আ: রাজজাক শাহ্</td><td>প্রভাষক</td><td>তথ্য ও যোগাযোগ প্রযুক্তি</td><td>০১৭২১৫৭৯২৭৭</td><td>roneyshah990@gmail.com</td></tr>
+      <tr><td>মো: আনোয়ারুল ইসলাম</td><td>প্রভাষক</td><td>জীববিজ্ঞান</td><td>০১৭৪০৮৭৫৯৯১</td><td>khokonislamstr7u@gmail.com</td></tr>
+      <tr><td>মো: আলমগীর হোসেন</td><td>প্রভাষক</td><td>রসায়ন</td><td>০১৭৪৬৮৫৫৫৭৮</td><td>seyumru@gmail.com</td></tr>
+      <tr><td>মো: সেলিম রেজা</td><td>প্রভাষক</td><td>পদার্থবিজ্ঞান</td><td>০১৭২৩৭০৪৬৮৪</td><td>sobuj.selimbd@gmail.com</td></tr>
+      <tr><td>মো: সালাহ উদ্দিন</td><td>প্রভাষক</td><td>গণিত</td><td>০১৭২৩৯২৮৩৬৩</td><td>mdsalah1.1@gmail.com</td></tr>
+      <tr><td>মো: মিজানুর রহমান</td><td>প্রভাষক</td><td>ভূগোল</td><td>০১৭১৪৫৬৮৮৮৭</td><td>mizan381986@gmail.com</td></tr>
+      <tr><td>মোছা: কাজল রেখা</td><td>প্রভাষক</td><td>ব্যবস্থাপনা</td><td>০১৭৫৬৩৬৩১৪৪</td><td>krekha301081@gmail.com</td></tr>
+      <tr><td>মো: রেজাউল করিম</td><td>প্রভাষক</td><td>হিসাববিজ্ঞান</td><td>০১৭১৭৬২৩৪৮২</td><td>rezaibat82@gmail.com</td></tr>
+      <tr><td>মো: আ: আওয়াল</td><td>প্রভাষক</td><td>উৎপাদন ব্যবস্থাপনা ও বিপনন</td><td>০১৭৩৪০৭২৯৯২</td><td>aawal1986@gmail.com</td></tr>
+      <tr><td>মো: আ: রশিদ</td><td>প্রভাষক</td><td>ইসলামের ইতিহাস ও সংস্কৃতি</td><td>০১৭২১৭২৩২০৫</td><td>arashid25577@gmail.com</td></tr>
+      <tr><td>মোছা: তসলিমা খাতুন</td><td>প্রভাষক</td><td>ইসলাম শিক্ষা</td><td>০১৭৬২৯৪৭২৪৮</td><td>toslima0177@gmail.com</td></tr>
+      <tr><td>মো: এচাহার আলী</td><td>প্রভাষক</td><td>পৌরনীতি ও সুশাসন</td><td>০১৭৫১৩৬৪৭৮৭</td><td>mdesahar0@gmail.com</td></tr>
+      <tr><td>মো: সেলিম রেজা</td><td>প্রভাষক</td><td>ইতিহাস</td><td>০১৭১৬৩৮৬৪০৯</td><td>salimreza33755@gmail.com</td></tr>
+      <tr><td>মো: সাজ্জাদ হোসেন</td><td>প্রভাষক</td><td>যুক্তিবিদ্যা</td><td>০১৭১৭০৫৫৯৫৭</td><td>sazzad017101987@gmail.com</td></tr>
+      <tr><td>মো: সিরাজুল ইসলাম</td><td>প্রভাষক</td><td>সমাজবিজ্ঞান</td><td>০১৭২৩৩৭৩২৬৪</td><td>serajulvac1@gmail.com</td></tr>
+      <tr><td>মো: সান্টু আলী</td><td>প্রভাষক</td><td>সমাজকর্ম</td><td>০১৭২৩১১৭০৯৮</td><td>santua98@gmail.com</td></tr>
+      <tr><td>মো: জাহাঙ্গীর আলম</td><td>প্রভাষক</td><td>মনোবিজ্ঞান</td><td>০১৭৩৪১২৩৪৮৭</td><td>zalam11079@gmail.com</td></tr>
+      <tr><td>মো: ইলিয়াস উল ইসলাম</td><td>প্রভাষক</td><td>কৃষি শিক্ষা</td><td>০১৭১৮৩৪৩৪৬৮</td><td>eliaslucky1978@gmail.com</td></tr>
+      <tr><td>মো: রোকনুজ্জামান শাহ্</td><td>প্রভাষক</td><td>পরিসংখ্যান</td><td>০১৭৩৬১৫৮৫৬৪</td><td>mrokanuzzaman05@gmail.com</td></tr>
+      <tr><td>মো: খুরশিদ আলম</td><td>শরীর চর্চা শিক্ষক</td><td>শারীরিক শিক্ষা</td><td>০১৭৩৭২৭১৯৩০</td><td>mkalam201078@gmail.com</td></tr>
+      <tr><td>মোছা: তহমিনা খাতুন</td><td>প্রদর্শক</td><td>জীববিজ্ঞান</td><td>০১৭৯৫৯৯৮৫৭৭</td><td>mtkhatun85@gmail.com</td></tr>
+      <tr><td>মো: হুমায়ুন কবির</td><td>প্রদর্শক</td><td>মনোবিজ্ঞান</td><td>০১৭৯২৬৯৯৪৬৫</td><td>mhkabir80@gmail.com</td></tr>
+      <tr><td>এম. এম. মইনুল ইসলাম</td><td>সহকারি লাইব্রেরিয়ান</td><td>লাইব্রেরি সায়েন্স</td><td>০১৭৪৪৭৪৬৪৯৯</td><td>mmmislam84@gmail.com</td></tr>
+      </tr>
+      <!-- অন্যান্য শিক্ষকরা পর্যায়ক্রমে যোগ করা যাবে -->
+    </tbody>
+  </table>
+  <button onclick="downloadStaffPDF()">PDF ডাউনলোড</button>
+
+<div class="section" id="stafflist">
+  <h2>কর্মচারীদের তালিকা</h2>
+  <table>
+    <thead>
+      <tr><th>নাম</th><th>পদবী</th><th>মোবাইল</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>মো: আনছার আলী</td><td>অফিস সহকারী কাম কম্পিউটার অপারেটর</td><td>০১৭৩৬৪৫৭৮৭১</td></tr>
+      <tr><td>মো: হেকমত আলী মৃধা</td><td>অফিস সহায়ক</td><td>০১৭৯০৩২৬৮৬৮</td></tr>
+       <tr><td>মো: আনোয়ার হোসেন</td><td>নিরাপত্তা কর্মী</td><td>০১৭৩৭৬৭৯৮৪৭</td></tr>
+       <tr><td>মো: এছের আলী</td><td>পরিচ্ছন্নতা কর্মী</td><td>০১৩১৯১২৬৪১৩</td></tr>
+       <tr><td>মোছা: রেনুকা বিবি</td><td>আয়া</td><td>০১৭৩৬৩৫২০৭২</td></tr>
+       <tr><td>মো: মেছের আলী</td><td>নৈশ্য প্রহরী</td><td>০১৭৯২৬৩২৬১৮</td></tr>
+    </tbody>
+  </table>
+  <button onclick="downloadStaffPDF()">PDF ডাউনলোড</button>
+</div>
+
+<div class="section" id="notice">
+  <h2>নোটিশ</h2>
+  <p>২০২৫ সালে এস.এস.সি পাশকৃত ছাত্র-ছাত্রীদের বিজ্ঞান, ব্যবসায় শিক্ষা ও মানবিক বিভাগে ভর্তি চলছে। ভর্তি হলে বিশেষ ছাড়ের ব্যবস্থা আছে।</p>
+</div>
+
+<div class="section" id="syllabus">
+  <h2>সিলেবাস ও রুটিন</h2>
+  <p><a href="syllabus.pdf" download>সিলেবাস ডাউনলোড করুন</a></p>
+  <p><a href="routine.pdf" download>রুটিন ডাউনলোড করুন</a></p>
+</div>
+
+<!-- অনুমোদিত শাখা বিভাগ অনুযায়ী বিষয়সমূহ -->
+<div class="section" id="science">
+  <h2>বিজ্ঞান বিভাগ</h2>
+  <ul>
+    <li>বাংলা</li> 
+    <li>ইংরেজি</li>
+    <li>আইসিটি</li>
+    <li>পদার্থবিজ্ঞান</li>
+    <li>রসায়ন</li>
+   <li>জীববিজ্ঞান</li> 
+   <li>উচ্চতর গণিত</li>
+   <li>পরিসংখ্যান</li>
+   <li>কৃষি শিক্ষা</li>
+  </ul>
+</div>
+
+<div class="section" id="commerce">
+  <h2>ব্যবসায় শিক্ষা বিভাগ</h2>
+  <ul>
+    <li>বাংলা</li>
+    <li>ইংরেজি</li>
+    <li>আইসিটি</li>
+    <li>হিসাববিজ্ঞান</li>
+    <li>ব্যবসায় সংগঠন ও ব্যবস্থাপনা</li>
+    <li>ব্যাংকিং ও বীমা</li>
+    <li>উৎপাদন ব্যবস্থাপনা ও বিপণন</li>
+     <li>পরিসংখ্যান</li>
+     <li>কৃষি শিক্ষা</li>
+  </ul>
+</div>
+
+<div class="section" id="humanities">
+  <h2>মানবিক বিভাগ</h2>
+  <ul>
+    <li>বাংলা</li>
+    <li>ইংরেজি</li>
+    <li>আইসিটি</li>
+    <li>পৌরনীতি ও সুশাসন</li>
+    <li>ইতিহাস</li>
+    <li>অর্থনীতি</li>
+    <li>ইসলামের ইতিহাস</li>
+    <li>ভূগোল</li>
+    <li>মনোবিজ্ঞান</li>
+    <li>সমাজকর্ম</li>
+    <li>সমাজবিজ্ঞান</li>
+     <li>যুক্তিবিদ্যা</li>
+      <li>কৃষি শিক্ষা</li>
+  </ul>
+</div>
+
+<div class="section" id="dashboard">
+  <h2>ড্যাশবোর্ড</h2>
+  <p>এখানে কলেজের গুরুত্বপূর্ণ তথ্য ও পরিসংখ্যান প্রদর্শিত হবে।</p>
+</div>
+
+<div class="section" id="downloads">
+  <h2>ডাউনলোড</h2>
+  <ul>
+    <li><a href="students.pdf" download>🎓 ছাত্র-ছাত্রীর তালিকা</a></li>
+    <li><a href="teachers.pdf" download>👨‍🏫 শিক্ষকদের তালিকা</a></li>
+    <li><a href="staffs.pdf" download>👷‍♂️ কর্মচারীর তালিকা</a></li>
+  </ul>
+</div>
+
+<div class="section" id="result">
+  <h2>ফলাফল</h2>
+  <p><a href="result.pdf" download>ফলাফল ডাউনলোড করুন</a></p>
+</div>
+
+<div class="section" id="routine">
+  <h2>রুটিন</h2>
+  <p><a href="routine.pdf" download>রুটিন ডাউনলোড করুন</a></p>
+</div>
+
+<div class="section" id="gallery">
+  <h2>গ্যালারি</h2>
+  <img src="gallery1.jpg" alt="গ্যালারি ছবি ১" style="width: 100%; max-width: 400px;">
+  <img src="gallery2.jpg" alt="গ্যালারি ছবি ২" style="width: 100%; max-width: 400px;">
+</div>
+<div class="section" id="studentslist">
+  <h2>ভর্তিকৃত ছাত্র-ছাত্রীদের তালিকা</h2>
+<div class="section" id="admission">
+  <h2>ভর্তি</h2>
+  <form id="admissionForm">
+    <input type="text" placeholder="নাম" name="name">
+    <input type="text" placeholder="পিতার নাম" name="father">
+    <input type="text" placeholder="মাতার নাম" name="mother">
+    <input type="text" placeholder="জন্ম সনদ নম্বর" name="birthCert">
+    <input type="text" placeholder="পিতার এনআইডি নম্বর" name="fatherNID">
+    <input type="text" placeholder="মাতার এনআইডি নম্বর" name="motherNID">
+    <input type="text" placeholder="ছাত্র/ছাত্রীর মোবাইল নম্বর" name="studentMobile">
+    <input type="text" placeholder="অভিভাবকের মোবাইল নম্বর" name="guardianMobile">
+    <input type="text" placeholder="গ্রাম" name="village">
+    <input type="text" placeholder="ডাকঘর" name="post">
+    <input type="text" placeholder="উপজেলা" name="upazila">
+    <input type="text" placeholder="জেলা" name="district">
+    <label>ইচ্ছুক শ্রেণি:
+      <select name="class">
+        <option>একাদশ</option>
+        <option>দ্বাদশ</option>
+      </select>
+    </label>
+    <label>বিভাগ:
+      <select name="department">
+        <option>বিজ্ঞান</option>
+        <option>ব্যবসায় শিক্ষা</option>
+        <option>মানবিক</option>
+      </select>
+    </label>
+    <p>আবশ্যিক বিষয়: বাংলা, ইংরেজি, আইসিটি</p>
+    <input type="text" placeholder="বিষয় ১" name="subject1">
+    <input type="text" placeholder="বিষয় ২" name="subject2">
+    <input type="text" placeholder="বিষয় ৩" name="subject3">
+    <input type="text" placeholder="চতুর্থ বিষয়" name="optionalSubject">
+    <button type="button" onclick="downloadAdmissionData()">জমা দিন ও PDF ডাউনলোড</button>
+  </form>
+</div>
+<div class="section" id="studentslist">
+  <h2>ভর্তিকৃত ছাত্র-ছাত্রীদের তালিকা</h2>
+<!-- ভর্তি তথ্য তালিকা -->
+<div class="section" id="admissionList">
+  <h2>ভর্তিকৃতদের তালিকা</h2>
+  <button onclick="downloadAllAdmissions()">সব তথ্য PDF করুন</button>
+  <table id="admittedTable">
+    <thead>
+      <tr>
+        <th>নাম</th>
+        <th>পিতার নাম</th>
+        <th>মাতার নাম</th>
+        <th>শ্রেণি</th>
+        <th>বিভাগ</th>
+        <th>ঠিকানা</th>
+        <th>মোবাইল</th>
+        <th>PDF</th>
+        <th>অ্যাকশন</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</div>
+
+<div class="section" id="admin">
+  <h2>এডমিন</h2>
+  <input type="text" placeholder="ইউজারনেম">
+  <input type="password" placeholder="পাসওয়ার্ড">
+  <button>লগইন</button>
+</div>
+
+<div class="section" id="contact">
+  <h2>যোগাযোগ করুন</h2>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+    <div style="flex: 1;">
+      <h3>Send Message Us</h3>
+      <input type="text" placeholder="Your Name">
+      <input type="email" placeholder="Your Email">
+      <input type="text" placeholder="Subject">
+      <textarea rows="5" placeholder="Message"></textarea>
+      <button>Send Message</button>
+    </div>
+    <div style="flex: 1;">
+
+      <h3>Get in Touch</h3>
+      <p>দাওকান্দি, পবা, জেলা: রাজশাহী</p>
+      <p>📍 DAOKANDI, PABA, RAJSHAHI</p>
+      <p>📞 +8801736236721</p>
+      <p>📧 verapuraidealcollege@gmail.com </p>
+      <div style="margin-top: 10px;">
+        <a href="#"><img src="facebook-icon.png" alt="Facebook" width="30"></a>
+        <a href="#"><img src="instagram-icon.png" alt="Instagram" width="30"></a>
+        <a href="#"><img src="twitter-icon.png" alt="Twitter" width="30"></a>
+        <a href="#"><img src="linkedin-icon.png" alt="LinkedIn" width="30"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+<script>
+  function downloadAdmissionData() {
+    const form = document.getElementById('admissionForm');
+    const data = new FormData(form);
+    let content = '';
+    let rowData = {};
+    for (let [key, value] of data.entries()) {
+      content += `${key}: ${value}
+`;
+      rowData[key] = value;
+    }
+
+    const {{ jsPDF }} = window.jspdf;
+    const doc = new jsPDF();
+    doc.setFont("Helvetica");
+    doc.text(content, 10, 10);
+    doc.save("ভর্তি_তথ্য.pdf");
+
+    saveToLocalStorage(rowData);
+    appendToTable(rowData);
+    form.reset();
+  }
+
+  function saveToLocalStorage(data) {
+    const list = JSON.parse(localStorage.getItem('admissionList') || '[]');
+    list.push(data);
+    localStorage.setItem('admissionList', JSON.stringify(list));
+  }
+
+  function appendToTable(data, index = null) {
+    const table = document.querySelector("#admittedTable tbody");
+    const row = document.createElement("tr");
+    row.innerHTML = `
+      <td>${data.name}</td>
+      <td>${data.father}</td>
+      <td>${data.mother}</td>
+      <td>${data.class}</td>
+      <td>${data.department}</td>
+      <td>গ্রাম: ${data.village}, ডাক: ${data.post}, উ: ${data.upazila}, জি: ${data.district}</td>
+      <td>${data.studentMobile}</td>
+      <td><button onclick="downloadSinglePDF(${index})">ডাউনলোড</button></td>
+      <td><button onclick="deleteRow(${index})">ডিলিট</button></td>
+    `;    table.appendChild(row);
+  }
+
+  function loadAdmissions() {
+    const list = JSON.parse(localStorage.getItem('admissionList') || '[]');
+    const table = document.querySelector("#admittedTable tbody");
+    table.innerHTML = '';
+    list.forEach((data, i) => appendToTable(data, i));
+  }
+
+  function downloadSinglePDF(index) {
+  const list = JSON.parse(localStorage.getItem('admissionList') || '[]');
+  const data = list[index];
+  let content = '';
+  for (let key in data) {
+    content += `${key}: ${data[key]}
+`;
+  }
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF();
+  doc.setFont("Helvetica");
+  doc.text(content, 10, 10);
+  doc.save(`${data.name}_ভর্তি_ফরম.pdf`);
+}
+
+function deleteRow(index) {
+    const list = JSON.parse(localStorage.getItem('admissionList') || '[]');
+    list.splice(index, 1);
+    localStorage.setItem('admissionList', JSON.stringify(list));
+    loadAdmissions();
+  }
+
+  function downloadAllAdmissions() {
+  const list = JSON.parse(localStorage.getItem('admissionList') || '[]');
+  if (list.length === 0) {
+    alert("কোনো তথ্য পাওয়া যায়নি!");
+    return;
+  }
+
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF();
+  doc.setFont("Helvetica");
+  let y = 10;
+  list.forEach((data, i) => {
+    doc.text(`ক্রমিক: ${i + 1}`, 10, y);
+    y += 8;
+    for (let key in data) {
+      doc.text(`${key}: ${data[key]}`, 10, y);
+      y += 8;
+      if (y > 270) {
+        doc.addPage();
+        y = 10;
+      }
+    }
+    y += 4;
+  });
+  doc.save("সকল_ভর্তি_তথ্য.pdf");
+}
+
+window.onload = loadAdmissions;
+</script>
+
+</body>
+</html>
+textarea {
+  resize: vertical;
+}
